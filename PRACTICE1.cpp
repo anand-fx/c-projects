@@ -13,3 +13,23 @@ cout << sum ;
 return 0;
 
 }
+
+//new code
+
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+void mycountry(string country = "norway"){
+cout << country << "\n";
+}
+
+ int main() {
+ mycountry("USA");
+ mycountry("india");
+ mycountry();
+ mycountry("china");
+
+ return 0;
+ }
